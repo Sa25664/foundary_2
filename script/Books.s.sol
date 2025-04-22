@@ -11,7 +11,7 @@ contract DeployBooks is Script {
     function setUp() public {
         vm.broadcast();
 
-        midterm = new Books("Programming Foundry", "Ellan", 100);
+        midterm = new Books("Programming Foundry", "Sa25664", 100);
     }
 
     function run() public {
