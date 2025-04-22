@@ -11,7 +11,7 @@ contract TestBooks is Test{
 
 
     function setUp() public {
-        midterm = new Books("Programming Foundry", "H585", 100);
+        midterm = new Books("Programming Foundry", "Ellan", 100);
         console.log("Midterm contract Deployed at:",address(midterm));
     }
 
